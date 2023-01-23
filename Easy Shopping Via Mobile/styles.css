@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    border: 0px;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 70px;
+    color: #5D5D7D;
+    display: block;
+    width: 368px;
+}
+
+p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #5D5D7D;
+    margin: 13px 0px;
+    mix-blend-mode: normal;
+    opacity: 0.6;
+}
+
+button{
+    background: #9499EA;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    border-radius: 50px;
+    color: #FFFFFF;
+    padding: 13px 67px;
+    cursor: pointer;
+
+}
+button:hover{
+    background: #9498ead1;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #ffffffe4;
+    font-weight: 500;
+    margin-left: 3px;
+}
+button:active{
+    background: #9498eabc;
+    box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+    color: #ffffffca;
+    font-weight: 400;
+}
+
+
+.MainDiv{ 
+    width: 540px;
+    margin-top: 341px;
+    margin-left: 136px;
+}
+
+main{display: flex;}
+
+.FirstMainSection{
+    height: 100vh;
+    width: 65vw;
+}
+
+.SeccondMainSection{
+    height: 100vh;
+    width: 35vw;
+    background: rgba(93, 93, 135, 0.16);
+}
+
+header{
+    margin: 24px 0px 0px 57px;
+}
+
+a{
+    font-size: 28px;
+    line-height: 41px;
+    color: #5D5D7D;
+    margin-right: 41px;
+}
+
+a:nth-child(2){
+    color: #5D5D7D;
+
+mix-blend-mode: normal;
+opacity: 0.4;
+}
+
+a:hover{
+    font-size: 28px;
+    line-height: 41px;
+    color: #5d5d7d93;
+    margin-right: 41px;
+}
+
+a:nth-child(2):hover{
+    color: #5d5d7dda;
+
+    mix-blend-mode: normal;
+    opacity: 1;
+}
+
+
+img{
+    width: 406px;
+    margin-top: 126px;
+    position: absolute;
+    right: 255px;
+}
+
+        @media (max-width: 400px){
+            *{
+                margin: 0px;
+                padding: 0px;
+                text-decoration: none;
+                box-sizing: border-box;
+                font-family: 'Oswald', sans-serif;
+                font-weight: 400;
+                border: 0px;
+            }
+
+            html{
+             width:0px;
+             height: 0px;
+            }
+            
+            h1{
+                margin: 54px 3px 3px 125px;
+                width: 268px;
+                display: block;
+                margin-top: 58px;
+                font-size: 36px;
+                line-height: 52px;
+                text-align: center;
+                color: #5D5D7D;
+            }
+            
+            p{
+                font-size: 20px;
+                line-height: 30px;
+                color: #5D5D7D;
+                margin: 46px 121px;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+                width: 299px;
+            }
+            
+            button{
+                background: #9499EA;
+                box-shadow: 0px 10px 24px rgba(148, 153, 234, 0.0979959);
+                font-size: 20px;
+                line-height: 36px;
+                text-align: center;
+                border-radius: 50px;
+                color: #FFFFFF;
+                padding: 13px 67px;
+                cursor: pointer;
+                width: 268px;
+                margin-left: 131px;
+            
+            }
+            
+            .MainDiv{ 
+                width: 540px;
+                margin-top: 0px;
+                margin-left: 0px;
+                height: 60vh;
+                display: flex;
+                flex-direction: column;
+            }
+            
+            main{display: block;}
+            
+            .FirstMainSection{
+                height: 60vh;
+                width: 100vw;
+                width: 375px;
+            }
+            
+            .SeccondMainSection{
+                height: 75vh;
+                width: 135vw;
+                background: rgba(20, 20, 156, 0.16);
+            }
+            
+            header{
+                margin: 24px 0px 0px 57px;
+                display: none;
+            }
+            
+            img{
+
+                width: 381px;
+                margin-top: 126px;
+            }
+
+            img{
+                position: static;
+                margin: 0px;
+                margin: 56px 51px 46px 75px;
+            }
+            
+        }
